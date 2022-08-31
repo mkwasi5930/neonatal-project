@@ -1,0 +1,43 @@
+body{
+    background-color:gainsboro ;
+    
+    }
+.header {
+          background-color: grey; height: 60;           
+           
+       }   
+ 
+#navlist { 
+       display: inline-block;
+            background-color: whitesmoke;            
+         } 
+ li   {
+    display: inline-block;
+    padding:5px;     
+    margin: 25px;
+    margin-block-end: 10px;
+    background-color:black;     
+        }
+  li.ul{
+       display:block;      
+  } 
+  a{
+      padding: 45px;
+      color: white;
+        }  
+         
+        .carousel-Inner  {
+            height:300px;
+          }
+          
+          .carousel-item  img {
+              position: absolute;
+              object-fit:cover;
+              top: 0;
+              left: 0;
+              min-height:300px;
+          }  
+   #content {
+         display: inline;
+         background-color: beige;
+   }                                 
